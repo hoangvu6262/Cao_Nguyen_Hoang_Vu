@@ -1,0 +1,24 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@mixin input-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@mixin form-field {
+  margin-bottom: 16px;
+  .MuiInputBase-input {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

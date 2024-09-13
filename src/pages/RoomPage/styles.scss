@@ -1,0 +1,16 @@
+.post-list {
+    margin-top: 50px;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 10px 5px;
+        border: 1px solid red;
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
